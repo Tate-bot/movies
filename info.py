@@ -36,10 +36,10 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002404005005'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002405276576'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002423676665'))
 auth_channel = environ.get('AUTH_CHANNEL', '')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/tatemovie'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/supptrt_group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '0') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
