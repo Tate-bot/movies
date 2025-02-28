@@ -45,7 +45,7 @@ async def pm_search(client, message):
         await auto_filter(client, message)
     else:
         await message.reply_text("<b><i>ɪ ᴀᴍ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ ʜᴇʀᴇ. ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ.</i></b>",
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/learning_bots')]]))
+                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ", url=f'https://t.me/Tate_movie_group')]]))
         
     
 @Client.on_message(filters.group & filters.text & filters.incoming)
@@ -998,11 +998,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @learningbots79\n👨‍💻 @innocent_babe_dead\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @tate_botX\n👨‍💻 @Mr_mark_tate\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='https://youtu.be/mWCsVUOKuoI')
+            InlineKeyboardButton('Repo', url='https://t.me/+6-rdWnkG-8ZiMzk9')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
