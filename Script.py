@@ -264,7 +264,7 @@ User - {}"""
 3 Month 149 Rupees 
 1 Year 499 Rupees 
 lifetime 999 Rupees 
- <code> paste here your upi id </code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+ <code>manoj2bussiness@fam</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
  
 ⛽️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ: /myplan
 
